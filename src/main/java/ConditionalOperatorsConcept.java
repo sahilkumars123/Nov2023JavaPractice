@@ -25,6 +25,13 @@ public class ConditionalOperatorsConcept {
 
 
         boolean flag = false;
+
+        String browser = "chrome";
+
+
+
+
+
         if(flag) {
             System.out.println("Hiii");
         }
@@ -69,7 +76,7 @@ public class ConditionalOperatorsConcept {
 
         //parallel if situtation
 
-//        String browser = "opera";
+//        String browser = "chrome";
 //
 //        if(browser.equals("chrome")){
 //            System.out.println("launch chrome");
@@ -92,24 +99,24 @@ public class ConditionalOperatorsConcept {
 
 
         //      if - elseif
-//		String browser = "edge";
-//		if(browser.equals("chrome")) {
-//			System.out.println("launch chrome");
-//		}
-//		else if(browser.equals("firefox")) {
-//			System.out.println("launch firefox");
-//		}
-//		else if(browser.equals("safari")) {
-//			System.out.println("launch safari");
-//		}
-//		else if(browser.equals("edge")) {
-//			System.out.println("launch edge");
-//		}
-//		else {
-//			System.out.println("plz pass the right browser...."+ browser);
-//		}
+		//String browser = "edge";
+		if(browser.equals("chrome")) {
+			System.out.println("launch chrome");
+		}
+		else if(browser.equals("firefox")) {
+			System.out.println("launch firefox");
+		}
+		else if(browser.equals("safari")) {
+			System.out.println("launch safari");
+		}
+		else if(browser.equals("edge")) {
+			System.out.println("launch edge");
+		}
+		else {
+			System.out.println("plz pass the right browser...."+ browser);
+		}
 
-//        String browser = "sahil";
+//        String browser = "chrome";
 ////required: 'char, byte, short, int, Character, Byte, Short, Integer, String, or an enum'
 //        switch (browser){
 //
