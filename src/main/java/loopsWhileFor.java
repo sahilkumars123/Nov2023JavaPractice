@@ -24,17 +24,17 @@ public class loopsWhileFor {
 
         System.out.println("----------------");
 
-//
-//        int l = 1;
-//
-//        while (l<=10){
-//            if(l == 5){
-//                System.out.println("hi");
-//                break;
-//            }
-//            System.out.println(l);  //1
-//            l++;
-//        }
+
+        int l = 1;
+
+        while (l<=10){
+            if(l == 5){
+                System.out.println("hi");
+                break;
+            }
+            System.out.println(l);  //1
+            l++;
+        }
 
         System.out.println("-----------------------");
 
@@ -77,6 +77,9 @@ public class loopsWhileFor {
         //webtable pagination:
         //calendar:
         //carousel:
+
+
+
 
 
 
