@@ -82,6 +82,5 @@ public class ArraysLiterals {
 
 
         //non-primitive: String, Object: null
-
     }
 }
