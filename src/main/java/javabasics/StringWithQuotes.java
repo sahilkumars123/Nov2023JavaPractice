@@ -1,3 +1,5 @@
+package javabasics;
+
 public class StringWithQuotes {
 
     public static void main(String[] args) {

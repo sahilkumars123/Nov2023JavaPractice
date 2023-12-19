@@ -1,3 +1,5 @@
+package javabasics;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -115,7 +117,7 @@ public class ArrayListMethods {
         //Exception in thread "main" java.lang.UnsupportedOperationException
         //	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142)
         //	at java.base/java.util.ImmutableCollections$AbstractImmutableCollection.add(ImmutableCollections.java:147)
-        //	at ArrayListMethods.main(ArrayListMethods.java:114)
+        //	at javabasics.ArrayListMethods.main(javabasics.ArrayListMethods.java:114)
 //        listOf.add(6);
 //        System.out.println(listOf.size());
 
@@ -124,7 +126,7 @@ public class ArrayListMethods {
         //Exception in thread "main" java.lang.UnsupportedOperationException
         //	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142)
         //	at java.base/java.util.ImmutableCollections$AbstractImmutableCollection.add(ImmutableCollections.java:147)
-        //	at ArrayListMethods.main(ArrayListMethods.java:114)
+        //	at javabasics.ArrayListMethods.main(javabasics.ArrayListMethods.java:114)
 //        listOf.remove((Object)5);
 //        System.out.println(listOf.size());
 

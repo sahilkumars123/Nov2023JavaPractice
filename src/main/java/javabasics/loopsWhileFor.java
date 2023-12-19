@@ -1,3 +1,5 @@
+package javabasics;
+
 public class loopsWhileFor {
 
     public static void main(String[] args) {

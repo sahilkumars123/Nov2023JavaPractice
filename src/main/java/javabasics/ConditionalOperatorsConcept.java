@@ -1,3 +1,5 @@
+package javabasics;
+
 public class ConditionalOperatorsConcept {
 
     //Conditional Operator ....... >,<,>=,<= ---- primitive datatype

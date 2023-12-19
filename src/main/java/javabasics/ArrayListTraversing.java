@@ -1,3 +1,5 @@
+package javabasics;
+
 import java.util.ArrayList;
 
 public class ArrayListTraversing {

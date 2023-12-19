@@ -1,3 +1,5 @@
+package javabasics;
+
 public class LoopsAssignment {
 
     public static void main(String[] args) {
