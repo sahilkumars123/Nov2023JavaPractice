@@ -25,7 +25,6 @@ public class Employee {
 
     public static void main(String[] args) {
 
-
         Employee e1 = new Employee();
         e1.name ="sahil";
         e1.age= 29;
