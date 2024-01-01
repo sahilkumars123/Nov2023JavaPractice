@@ -41,7 +41,6 @@ public class BMW extends Car{
 	
 	
 	//final methods
-	
 	//can final method be overriden -- NO
 	//can final method be inhertited -- YES
 	
