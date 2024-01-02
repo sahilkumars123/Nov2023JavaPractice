@@ -10,11 +10,14 @@ public class TestMedical{
 //		and Java restricts the creation of object.
 		
 		
-		
-		System.out.println(FortisHospital.min_fee);
-			
+		System.out.println(USMedical.min_fee);  //10
+		//FortisHospital.min_fee = 20; -- because the variable is final in nature
+		System.out.println(FortisHospital.min_fee); //200
 			
 		FortisHospital fh = new FortisHospital();
+		
+		//USMedical.USMedPharamacy();
+	
 		
 		fh.physioServices();
 		fh.cardioServices();
@@ -30,7 +33,11 @@ public class TestMedical{
 		
 		fh.medicalRD();
 		
+		
+		System.out.println("------------------------------------------");
 		USMedical us = new FortisHospital(); //TopCasting or UpCasting
+		
+		//us.billing();
 		
 		us.physioServices();
 		us.cardioServices();
@@ -48,13 +55,6 @@ public class TestMedical{
 		//downcasting -- NA
 		
 	//FortisHospital fh3 = (FortisHospital) new USMedical(); //compile time error
-		
-		
-		
-		
-	
-		
-		
 		
 	}
 

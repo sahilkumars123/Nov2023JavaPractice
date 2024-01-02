@@ -10,7 +10,6 @@ public class FortisHospital  extends Medical implements USMedical, UKMedical, In
 	public void physioServices() {
 		System.out.println("FH----physioservices");		
 	}
-	
 
 
 	@Override
@@ -72,5 +71,15 @@ public class FortisHospital  extends Medical implements USMedical, UKMedical, In
 	public void medicalRD() {
 		System.out.println("FH --- medicalRD");
 	}
+	
+	@Override
+	public void billing() {
+		System.out.println("Fortis Medical --- billing");
+	}
+	
+	
+	
+
+
 	
 }
