@@ -9,9 +9,10 @@ public class throwkeyword {
 		if (browser == null) {
 			try {
 				throw new Exception("BROWSER CANNOT BE NULL....");
-			} catch (Exception e) {
+			}catch (Exception e) {
 				e.printStackTrace();
 			}
+		
 		}
 	}
 

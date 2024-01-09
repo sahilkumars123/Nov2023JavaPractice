@@ -49,9 +49,9 @@ public interface USMedical extends WHO {
 //		System.out.println("US Med Pharamacy");
 //	}
 //	
-//	//2. can have a default method (non static) with method body
-//	default void billing() {
-//		System.out.println("US Medical --- billing");
-//	}
+	//2. can have a default method (non static) with method body
+	default void billing() {
+		System.out.println("US Medical --- billing");
+	}
 
 }
