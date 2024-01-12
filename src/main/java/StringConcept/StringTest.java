@@ -83,6 +83,7 @@ public class StringTest {
 		
 		
 		//immutable - you cannot change the value
+		//whenever you do any opeartion to a variable of string, the new value stores in heap memory not in string constant pool
 		String z = "testing";
 		String z1 = z.concat("automation"); //testing automation
 		System.out.println(z);
@@ -114,6 +115,9 @@ public class StringTest {
 		bf.append("kumar");
 		System.out.println(bf);
 		
+		
+		
+	
 
 	}
 
